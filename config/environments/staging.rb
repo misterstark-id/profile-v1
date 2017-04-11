@@ -1,0 +1,1 @@
+config.assets.digest = true

@@ -1,24 +1,6 @@
-# README
+#MisterStark.ID Company Profile<br> version 1.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository of company profile [misterstark.id](http://misterstark.id)  {Hosting&Development}
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+screenshoots :
+![](https://github.com/misterstark-id/profile-v1/blob/master/screenshoot/screencapture-misterstark_id.png)

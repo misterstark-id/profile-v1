@@ -3,4 +3,5 @@
 This repository of company profile [misterstark.id](http://misterstark.id)  {Hosting&Development}
 
 screenshoots :
-![](https://github.com/misterstark-id/profile-v1/blob/master/screenshoot/screencapture-misterstark_id.png)
+
+![](https://github.com/misterstark-id/profile-v1/blob/master/screenshot/screencapture-misterstark_id.png) 

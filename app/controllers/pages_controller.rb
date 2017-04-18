@@ -12,7 +12,7 @@ class PagesController < ApplicationController
     @message = Message.new message_params
     if @message.valid?
       MessageMailer.contact(@message).deliver_now
-      redirect_to new_message_url, notice: "Message received, thanks!"
+      redirect_to new_message_url, notice: "Message sending, thanks!"
     else
       render :home
     end

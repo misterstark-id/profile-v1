@@ -96,14 +96,22 @@ Rails.application.configure do
   config.serve_static_assets = true
 
   # Additional
+  config.action_mailer.default_url_options = { :host => "misterstark.id" }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :port           => 587,
-    :address        => '31.220.57.200',
-    :user_name      => ENV['cs@misterstark.id'],
-    :password       => ENV['bug123!@#'],
-    :domain         => 'misterstark.id',
-    :authentication => :plain,
+    #:address        => "smtp.gmail.com",
+    #:user_name      => 'misterstark.id@gmail.com',
+    :address        => "31.220.57.200",
+    :user_name      => 'cs',
+    :password       => 'bug123!@#',
+    :authentication => :login,
+    :enable_starttls_auto => true,
+    :openssl_verify_mode => 'none',
+    :domain         => 'misterstark.id'
   }
 
 end

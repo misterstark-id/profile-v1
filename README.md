@@ -1,4 +1,5 @@
-# MisterStark.ID Company Profile<br> version 1.0
+# MisterStark.ID Company Profile
+### version 1.0
 
 This repository of company profile [misterstark.id](http://misterstark.id)  {Hosting&Development}
 
